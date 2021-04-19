@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* header/navbar */
+
+header {
+    margin: 0;
+    background-color: #FE7B72;
+}
+
+.bg-light {
+    background-color: blue;
+}
+.navbar {
+    font: 'Poppins', Sans-serif;
+    background-color: #FDFFFC;
+    color: #FE7B72;
+}
+
+.hero-image {
+    background: url("../images/discussing-mobile-app.jpg")
+}
+
+
+/*#nav-item {
+display: inline;
+float: right;
+}
+
+#navbar-name {
+    float: left;
+}*/
+
+/*  home page css */
+
+body {
+    background-color: #E88741;
+    font: 'Poppins', Sans-serif;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*CV page css*/
+
+
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+
+#date {
+    font-weight: bold;
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+
+/*.left
+{
+    float: left;
+    margin-top: 50px;
+    /*margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }*/
+    
+h3
+{
+    text-decoration: underline;
+    }
+
+
+#job-responsibilities
+{
+    padding: 1px;
+    }
+.job-title
+{
+    font-weight: bold;
+    }
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+
+#course-name
+{
+    font-weight:bold;
+    }
+
+#company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+#job-title
+{
+    height: 5px;
+    }
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
+    }
+
+
+/*contact page css*/
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        flex-basis: auto;
+    }
+}
