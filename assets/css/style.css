@@ -4,20 +4,28 @@
 
 header {
     margin: 0;
-    background-color: #FE7B72;
 }
 
 .bg-light {
-    background-color: blue;
+    background-color: #555E62;
+    color: #FE7B72;
 }
 .navbar {
-    font: 'Poppins', Sans-serif;
-    background-color: #FDFFFC;
-    color: #FE7B72;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero-image {
-    background: url("../images/discussing-mobile-app.jpg")
+    background: url("../images/hero.image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.hero-text {
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -33,7 +41,7 @@ float: right;
 /*  home page css */
 
 body {
-    background-color: #E88741;
+    background-color: #FDFFFC;
     font: 'Poppins', Sans-serif;
 }
 
@@ -74,14 +82,16 @@ body {
 
 /*CV page css*/
 
-
+#fullpage {
+    margin: 20;
+}
 
 #name {
     float:left;
 	margin-left: 20px;
 	padding-bottom: 10px;
 	font-size: 16px;
-	font-family: Verdana, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #ffffff;
 }
 
@@ -90,7 +100,7 @@ body {
     margin-right: 20px;
 	padding-bottom: 10px;
 	font-size: 16px;
-	font-family: Verdana, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #ffffff;
 }
 
@@ -99,7 +109,7 @@ body {
     margin-left:45%;
     padding-bottom: 10px;
 	font-size: 16px;
-	font-family: Verdana, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #ffffff;
     }
 
@@ -155,7 +165,7 @@ table
 td
 {
     padding: 2px;
-    border: 1px solid #E88741;
+    border: 1px solid;
     }
 
 #course-name
@@ -189,8 +199,10 @@ td
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+  background: #525252;
+  color: #fafafa;
+  margin: 0;
+  min-height: 120px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
