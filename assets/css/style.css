@@ -5,20 +5,24 @@
 header {
     margin: 0;
 }
-
-.bg-light {
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    color: #FE7B72;
+}
+.bg-light-grey {
     background-color: #555E62;
     color: #FE7B72;
 }
-.navbar {
-    font-family: 'Poppins', sans-serif;
-}
 
-.hero-image {
+
+.hero-images {
     background: url("../images/hero.image.jpg");
-    background-position: center;
+    background-position: 36%, 0;
     background-repeat: no-repeat;
-    background-size: 360px;
+    background-size: cover;
+    position: relative;
+    height: 350px;
+    width: auto;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -217,4 +221,11 @@ td
     .navbar-expand-md .navbar-collapse {
         flex-basis: auto;
     }
+}
+
+@media (min-width: 1024px) {
+    .hero-images {
+        height: 65vh;
+    }
+    
 }
