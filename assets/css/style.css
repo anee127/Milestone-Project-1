@@ -5,13 +5,20 @@
 header {
     margin: 0;
 }
-.navbar {
-    font-family: 'Poppins', sans-serif;
-    color: #FE7B72;
-}
+
 .bg-light-grey {
     background-color: #555E62;
-    color: #FE7B72;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    color: pink;
+    font-size: 40px;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    color:#fafafa;
 }
 
 
@@ -30,6 +37,9 @@ header {
 
 .hero-text {
     font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding: 0%;
+    margin: 0%;
 }
 
 
