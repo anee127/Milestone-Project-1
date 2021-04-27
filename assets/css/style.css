@@ -7,7 +7,7 @@ header {
 }
 
 .bg-light-grey {
-    background-color: #555E62;
+    background-color: #555F62;
 }
 
 .logo {
@@ -16,9 +16,13 @@ header {
     font-size: 40px;
 }
 
-.menu {
+.nav-item {
     font-family: 'Poppins', sans-serif;
-    color:#fafafa;
+    color:#FE8D85;
+}
+
+.menu {
+    color: #FE8D85;
 }
 
 
@@ -43,33 +47,27 @@ header {
 }
 
 
-/*#nav-item {
-display: inline;
-float: right;
-}
-
-#navbar-name {
-    float: left;
-}*/
-
 /*  home page css */
 
 body {
-    background-color: #fdfffc41;
+    background-color: red;
 }
 
-/* Create two unequal columns that floats next to each other */
-
-
-/* Add a card effect for articles */
-
+.leftcolumn {
+  padding: 0;
+  margin-left: 50%;
+}
 
 .card {
-  background-color: white;
+  background-color: #FDFFFC;
   padding: 20px;
   margin-top: 20px;
   font-family: 'Poppins', sans-serif;
-  color: blue;
+}
+
+.heading {
+    color: #555F62;
+    font-weight: 400;
 }
 
 /*CV page css*/
@@ -78,32 +76,12 @@ body {
     margin: 20;
 }
 
-#name {
-    float:left;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	color: #ffffff;
+.timeline-item {
+    padding: 4rem 2rem 0rem 2rem;
+    position: relative;
+    border-left: 1px solid;
 }
 
-#email{
-    float:right;
-    margin-right: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	color: #ffffff;
-}
-
-#contact
-{
-    margin-left:45%;
-    padding-bottom: 10px;
-	font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	color: #ffffff;
-    }
 
 a:hover {
     font-weight: bold;
@@ -136,52 +114,6 @@ a:hover {
     background-color: #4160E8;
     }*/
     
-h3
-{
-    text-decoration: underline;
-    }
-
-
-#job-responsibilities
-{
-    padding: 1px;
-    }
-.job-title
-{
-    font-weight: bold;
-    }
-table
-{
-    border: 1px dashed black;
-    }
-td
-{
-    padding: 2px;
-    border: 1px solid;
-    }
-
-#course-name
-{
-    font-weight:bold;
-    }
-
-#company-name
-{
-    height:2px;
-    text-decoration:underline;
-    }
-#job-title
-{
-    height: 5px;
-    }
-.job-duration
-{
-    float:right;
-    }
-#heading
-{
-    font-weight:bold;
-    }
 
 
 /*contact page css*/
