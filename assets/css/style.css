@@ -6,13 +6,13 @@ header {
     margin: 0;
 }
 
-.bg-light-grey {
-    background-color: #555F62;
+.bg-light-pink {
+    background-color: #FFFAD7;
 }
 
 .logo {
     font-family: 'Poppins', sans-serif;
-    color: pink;
+    color: #FBB1CE;
     font-size: 40px;
 }
 
@@ -21,9 +21,6 @@ header {
     color:#FE8D85;
 }
 
-.menu {
-    color: #FE8D85;
-}
 
 
 .hero-images {
@@ -49,13 +46,10 @@ header {
 
 /*  home page css */
 
-body {
-    background-color: #fafafa;
-}
-
 .leftcolumn {
   padding: 0;
   margin-left: 50%;
+  border: none;
 }
 
 .card {
@@ -63,10 +57,11 @@ body {
   padding: 20px;
   margin-top: 20px;
   font-family: 'Poppins', sans-serif;
+  border: none;
 }
 
 .heading {
-    color: #555F62;
+    color: #4377B1;
     font-weight: 400;
 }
 
@@ -120,11 +115,11 @@ a:hover {
 
 
 /* Footer */
-.footer {
+footer {
   padding: 20px;
   text-align: center;
-  background: #525252;
-  color: #fafafa;
+  background: #FFFAD7;
+  color: #FBB1CE;
   margin: 0;
   min-height: 120px;
 }
