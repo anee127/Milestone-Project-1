@@ -3,22 +3,29 @@
 /* header/navbar */
 
 header {
-    margin: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+
 }
 
 .bg-light-pink {
-    background-color: #FFFAD7;
+    background-color: #A6BFDD;
 }
 
 .logo {
     font-family: 'Poppins', sans-serif;
-    color: #FBB1CE;
+    color: #F36874;
     font-size: 40px;
+    text-shadow: 2px 2px #879397;
 }
 
-.nav-item {
+.menu {
     font-family: 'Poppins', sans-serif;
-    color:#FE8D85;
+    color: #F36874;
+    text-shadow: 1px 1px #879397;
 }
 
 
@@ -46,10 +53,26 @@ header {
 
 /*  home page css */
 
-.leftcolumn {
-  padding: 0;
-  margin-left: 50%;
+.heading {
+    color: #4377B1;
+    font-weight: 400;
+}
+
+/*  about secion */
+
+.left-column {
+  padding: 0px 40px 0 40px;
+  margin: 0;
   border: none;
+}
+
+/*  my details secion */
+
+.right-column {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    border-color: #F36874;
 }
 
 .card {
@@ -60,10 +83,7 @@ header {
   border: none;
 }
 
-.heading {
-    color: #4377B1;
-    font-weight: 400;
-}
+
 
 /*CV page css*/
 
@@ -118,10 +138,16 @@ a:hover {
 footer {
   padding: 20px;
   text-align: center;
-  background: #FFFAD7;
-  color: #FBB1CE;
+  background: #A6BFDD;
+  color: #F36874;
   margin: 0;
   min-height: 120px;
+  text-shadow: 1px 1px #879397;
+}
+
+.fa {
+    color: #F36874;
+    text-shadow: 1px 1px #879397;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
