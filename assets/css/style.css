@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Coiny&display=swap');
 
 /* header/navbar */
 
@@ -16,14 +16,15 @@ header {
 }
 
 .logo {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Coiny', cursive, sans-serif;
     color: #F36874;
-    font-size: 40px;
+    font-size: 45px;
     text-shadow: 2px 2px #879397;
 }
 
 .menu {
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
     color: #F36874;
     text-shadow: 1px 1px #879397;
 }
@@ -75,12 +76,17 @@ header {
     border-color: #F36874;
 }
 
+/*  my projects secion */
+
 .card {
   background-color: #FDFFFC;
   padding: 20px;
   margin-top: 20px;
   font-family: 'Poppins', sans-serif;
-  border: none;
+  box-sizing: border-box;
+  border: 2px;
+  border-radius: 50px;
+  
 }
 
 
@@ -139,6 +145,7 @@ footer {
   padding: 20px;
   text-align: center;
   background: #A6BFDD;
+  font-size: 20px;
   color: #F36874;
   margin: 0;
   min-height: 120px;
@@ -147,7 +154,9 @@ footer {
 
 .fa {
     color: #F36874;
+    font-size: 30px;
     text-shadow: 1px 1px #879397;
+    border-radius: 2px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
