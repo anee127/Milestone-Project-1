@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Coiny&display=swap');
 
-/* header/navbar */
+/* navbar */
 
 header {
     margin-left: 0px;
@@ -12,14 +12,15 @@ header {
 }
 
 .bg-light-pink {
-    background-color: #A6BFDD;
+    background-color: #FFFAD7;
 }
 
 .logo {
-    font-family: 'Coiny', cursive, sans-serif;
+    font-family: 'Coiny', sans-serif;
     color: #F36874;
     font-size: 45px;
     text-shadow: 2px 2px #879397;
+    letter-spacing: 1px;
 }
 
 .menu {
@@ -29,7 +30,7 @@ header {
     text-shadow: 1px 1px #879397;
 }
 
-
+/* header */
 
 .hero-images {
     background: url("../images/hero.image.jpg");
@@ -45,18 +46,25 @@ header {
 }
 
 .hero-text {
+    position: absolute;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    padding: 0%;
-    margin: 0%;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-top: 10px;
+    color:#FDFFFC;
+    text-shadow: 2px 2px grey;
+    letter-spacing: 1px;
 }
 
 
 /*  home page css */
 
 .heading {
-    color: #4377B1;
-    font-weight: 400;
+    color: #89AAD2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
 }
 
 /*  about secion */
@@ -144,7 +152,7 @@ a:hover {
 footer {
   padding: 20px;
   text-align: center;
-  background: #A6BFDD;
+  background: #FFFAD7;
   font-size: 20px;
   color: #F36874;
   margin: 0;
