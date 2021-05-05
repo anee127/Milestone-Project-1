@@ -108,35 +108,86 @@ header {
 .timeline-item {
     padding: 4rem 2rem 0rem 2rem;
     position: relative;
+    color: #879397;
     border-left: 1px solid;
 }
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
 
 #date {
     font-weight: bold;
 }
 
-.right
-{
-    float: left;
-    margin-top: 50px;
-    padding-left:5px;
-    /*margin-right: -10px;
-    margin-left: 14%;*/
-    height: auto;
-    width: 99%;
-    background-color: #E3EDD8;
-    }
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #89AAD2;
+}
 
-/*.left
-{
-    float: left;
-    margin-top: 50px;
-    /*margin-right: -90px;
-    height: relative;
-    width: 10%;
-    background-color: #4160E8;
-    }*/
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:#89AAD2;
+}
+
+/*---------Education timeline*/
+
+.location {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #89AAD2;
+}
+
+.grade {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #879397;
+}
+
+/*---------work history timeline*/
+
+.company {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #89AAD2;
+}
+
+.role {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #879397;
+}
     
+/*---------Technical Skills*/
 
 
 /*contact page css*/
