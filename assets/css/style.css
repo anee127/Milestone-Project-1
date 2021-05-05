@@ -111,12 +111,6 @@ header {
     border-left: 1px solid;
 }
 
-
-a:hover {
-    font-weight: bold;
-}
-
-
 #date {
     font-weight: bold;
 }
@@ -146,6 +140,29 @@ a:hover {
 
 
 /*contact page css*/
+
+.contact-heading {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #89AAD2;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    font-family: "Poppins",sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #FDFFFC;
+    background-color: #89AAD2;
+}
 
 
 /* Footer */
