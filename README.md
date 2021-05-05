@@ -2,7 +2,7 @@
 
 ![](/assets/responsive-image.png)\
 
-**Live Page**: https://
+**Live Page**: https://anee127.github.io/Milestone-Project-1/
 
 **This Resume is part of the first Milestone Project carried out through the Code Institute.**
 
