@@ -102,11 +102,31 @@ header {
 /*CV page css*/
 
 #fullpage {
-    margin: 20;
+    margin: 10;
+}
+
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #89AAD2;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color:#89AAD2;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.history {
+    margin: 5%;
 }
 
 .timeline-item {
-    padding: 4rem 2rem 0rem 2rem;
+    padding: 4em 2em 0em 4em;
     position: relative;
     color: #879397;
     border-left: 1px solid;
@@ -139,24 +159,7 @@ header {
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #fafafa;
-}
-
-
-#date {
-    font-weight: bold;
-}
-
-h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #89AAD2;
-}
-
-.title {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    color:#89AAD2;
+    background: #879397;
 }
 
 /*---------Education timeline*/
