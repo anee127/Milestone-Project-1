@@ -101,11 +101,6 @@ header {
 
 /*CV page css*/
 
-#fullpage {
-    margin: 10;
-}
-
-
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -115,7 +110,7 @@ h1 {
 
 .title {
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color:#89AAD2;
     text-align: center;
     text-decoration-line: underline;
@@ -128,7 +123,7 @@ h1 {
 .timeline-item {
     padding: 4em 2em 0em 4em;
     position: relative;
-    color: #879397;
+    color: #F36874;
     border-left: 1px solid;
 }
 
@@ -159,7 +154,7 @@ h1 {
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #879397;
+    background: #F36874;
 }
 
 /*---------Education timeline*/
@@ -167,6 +162,7 @@ h1 {
 .location {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    font-size: 20px;
     color: #89AAD2;
 }
 
@@ -181,6 +177,7 @@ h1 {
 .company {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    font-size: 20px;
     color: #89AAD2;
 }
 
