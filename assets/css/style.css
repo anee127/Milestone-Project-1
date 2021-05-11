@@ -87,17 +87,23 @@ header {
 /*  my projects secion */
 
 .card {
-  background-color: #FDFFFC;
+  background-color: #FFFAD7;
   padding: 20px;
-  margin-top: 20px;
-  font-family: 'Poppins', sans-serif;
+  margin: 20px;
   box-sizing: border-box;
   border: 2px;
-  border-radius: 50px;
-  
+  border-radius: 10px;
 }
 
+.project {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #F36874;
+}
 
+img {
+    border-radius: 50%;
+}
 
 /*CV page css*/
 
