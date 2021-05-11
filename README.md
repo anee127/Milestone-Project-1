@@ -14,11 +14,11 @@ This website showcases my skills and experience as a personal resume website. It
 + [User Stories] (#user-stories)
 + [Design] (#design)
 + [Wireframes] (#wireframes)
--	[Features] (#features)
+-	[**Features**] (#features)
 + [Existing Features] (#existing-features)
 + [Features left to Include] (#features-left-to-include)
 + [Status] (status)
--	[Technologies] (#technologies)
+-	[**Technologies**] (#technologies)
 + [Languages] (#languages)
 + [Frameworks, Libraries and Programs] (#frameworks-libraries-and-programs)
 -	[Deployment] (#deployment)
@@ -66,18 +66,18 @@ At the start of the project I designed the wireframes using Balsamiq. The mock-u
 
 ## **Features**
 ### Existing Features
-**Header**
+- **Header**
 Navbar: used bootstrap to create a responsive navbar with my name as the logo which will contain a link to the ‘About’ page.
 On standard and large screens the navbar menu will be shown as: About, CV and Contact, consecutively.
 For medium and small screens the nav link will be within a hamburger icon button displaying as: About, CV and Contact, in a descending order.
-**Sections**
+- **Sections**
 About page: This contains a brief introduction to myself, my contact details and links to my projects. 
 CV page: Has a timeline of my education and work experience as well as progress bars to represent my skills. 
 Contact page: this contains a form in which a user can provide their contact information and a message that can be submitted to myself. 
-**Footer**
+- **Footer**
 The footer had my copyright information, a download link to a pdf of my cv that is printable and links to my social media that will all open in a new page. 
 ### Features Left to Include
-**Future features**
+- **Future features**
 I will be using this site to promote myself in the future so will update the CV and skills section when required. I will also update the ‘My Projects’ section to include more recent and better projects but will keep the same layout and just include them towards the bottom. Once I have more than 6 projects I will create a whole page just for them and provide a link on the homepage. 
 ## Technologies Used
 ### Languages
