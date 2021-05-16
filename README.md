@@ -1,6 +1,6 @@
 # Personal Resume of Aneesa Khan
 
-![](/assets/responsive-image.png)\
+![MyResume](/assets/responsive-design.png)\
 
 **Live Page**: https://anee127.github.io/Milestone-Project-1/
 
