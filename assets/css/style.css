@@ -21,13 +21,13 @@
     text-shadow: 1px 1px #879397;
 }
 
-.hvr-fade:before {
-    height: 20px;
+/* .hvr-underline-reveal {
+    text-decoration-color: #879397;
 }
 
-.hvr-fade:hover {
-    background-color: #879397;
-}
+.hvr-underline-reveal:hover {
+    transform: translate(2%, 2%);
+} */
 
 /* header */
 
@@ -79,16 +79,17 @@ header {
 /*  about secion */
 
 .left-column {
- 
-  border: none;
+    font-size: 20px;
+  padding-right: 24px;
+  margin-bottom: 20px;
   color: #879397;
 }
 
 /*  my details secion */
 
 .right-column {
-    
-    border: 2px;
+    font-size: 20px;
+    margin-bottom: 20px;
     color: #879397;
 }
 
@@ -96,12 +97,17 @@ header {
     font-weight: bold;
 }
 
+.list-group-item {
+    background-color: #FFFAD7;
+    overflow-wrap: break-word;
+}
+
 /*  my projects secion */
 
-.card {
+.project-card {
   background-color: #FFFAD7;
   padding: 20px;
-  margin: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
   width: auto;
   position: relative;
@@ -250,10 +256,17 @@ h1 {
 .contact-heading {
 
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 25px;
     margin-bottom: 20px;
     color: #89AAD2;
+}
+
+.form-group {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(243, 104, 116, 0.6);
 }
 
 .center-form {
@@ -296,7 +309,7 @@ footer {
 
 /* Responsive layout - media queries */
 @media screen and (min-width: 500px) {
-  .left-column, .right-column {
+  /* .left-column, .right-column {
     width: auto;
     padding: 0;
   }
@@ -305,24 +318,24 @@ footer {
       margin: 20px auto;
       padding-left: 25px;
 
-  }
+  } */
 }
 
 @media screen and (min-width: 700px) {
     .navbar-expand-md .navbar-collapse {
         flex-basis: auto;
     }
-    .left-column, .right-column {
+    /* .left-column, .right-column {
         width: auto;
         padding: 0;
-    }
+    } */
 
-    .card {
+    /* .card {
         height: auto;
         max-width: 500px;
         margin: 20px auto;
         padding-left: 20px;
-    }
+    } */
 }
 /* 
 @media (min-width: 1024px) {
