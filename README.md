@@ -1,6 +1,6 @@
 # Personal Resume of Aneesa Khan
 
-![MyResume](/assets/responsive-design.png)\
+![MyResume](/assets/images/responsive-design.png)
 
 **Live Page**: https://anee127.github.io/Milestone-Project-1/
 
@@ -15,7 +15,7 @@ This website showcases my skills and experience as a personal resume website. It
 + [Design] (#design)
 + [Wireframes] (#wireframes)
 -	[**Features**] (#features)
-+ [Existing Features] (#existing-features)
++ [Existing Features] (#exsiting-features)
 + [Features left to Include] (#features-left-to-include)
 + [Status] (status)
 -	[**Technologies**] (#technologies)
@@ -56,7 +56,7 @@ For this first milestone project the purpose is to create a personal website to 
 -	The key colours being grey, blue, pink and yellow.
 -	The colours used tie in with the colours in the hero image to keep the scheme through out the website.
 -	The majority of the background is white to avoid visual clashes and create more emphasis on the text. 
-![](assets/ColourScheme.png)
+![Colour Scheme](assets/images/colour-scheme.png)
 **Typography**
 The Poppins font is used throughout the website, it is a rounded and easy to read font.  Arvo is used for emphasis with some words. Sans serif is the backup font in case the original font does not load onto the website. Coiny is used for the web logo only to make it stand out from the rest of the text.
 

@@ -1,25 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Courgette&display=swap');
 
 /* navbar */
 
-header {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    padding-top: 20px;
-
-}
-
-.bg-light-pink {
+.bg-light-yellow {
     background-color: #FFFAD7;
 }
 
 .logo {
-    font-family: 'Coiny', sans-serif;
+    font-family: 'Courgette', sans-serif;
     color: #F36874;
-    font-size: 45px;
-    text-shadow: 2px 2px #879397;
+    font-size: 30px;
+    text-shadow: 2px 1px #879397;
     letter-spacing: 1px;
 }
 
@@ -30,7 +21,22 @@ header {
     text-shadow: 1px 1px #879397;
 }
 
+.hvr-fade:before {
+    background: #FFFAD7;
+    height: 20px;
+
+}
+
 /* header */
+
+header {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+
+}
 
 .hero-images {
     background: url("../images/hero.image.jpg");
@@ -38,7 +44,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 350px;
+    height: 300px;
     width: auto;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -73,6 +79,7 @@ header {
   padding: 0px 40px 0 40px;
   margin: 0;
   border: none;
+  color: #879397;
 }
 
 /*  my details secion */
@@ -80,8 +87,12 @@ header {
 .right-column {
     padding: 10px;
     margin: 0;
-    box-sizing: border-box;
-    border-color: #F36874;
+    border: 2px;
+    color: #879397;
+}
+
+.info {
+    font-weight: bold;
 }
 
 /*  my projects secion */
@@ -93,16 +104,23 @@ header {
   box-sizing: border-box;
   border: 2px;
   border-radius: 10px;
+  height: 80%;
+  width: auto;
 }
 
 .project {
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
     font-weight: 500;
     color: #F36874;
+    text-align: center;
+    position: relative;
 }
 
 img {
     border-radius: 50%;
+    width: 100%;
+    height: auto;
 }
 
 /*CV page css*/
@@ -263,9 +281,13 @@ footer {
     border-radius: 2px;
 }
 
+.fa-copyright {
+    font-size: 20px;
+}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
+  .left-column, .right-column {
     width: 100%;
     padding: 0;
   }
