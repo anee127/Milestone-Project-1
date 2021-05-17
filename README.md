@@ -15,7 +15,7 @@ This website showcases my skills and experience as a personal resume website. It
 + [Design] (#design)
 + [Wireframes] (#wireframes)
 -	[**Features**] (#features)
-+ [Existing Features] (#exsiting-features)
++ [Existing Features] (#existing-features)
 + [Features left to Include] (#features-left-to-include)
 + [Status] (status)
 -	[**Technologies**] (#technologies)
