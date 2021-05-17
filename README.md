@@ -9,32 +9,32 @@
 This website showcases my skills and experience as a personal resume website. It includes some features about me as well as my details and CV to appeal to potential recruiter/employers. The website itself is an example of my skills and I have provided contact input for users who would like to get in touch.
 
 ## <u>Table of Contents</u>
--	[**User Experience (UX)**] (#user-experience-ux)
-+ [Purpose] (#purpose)
-+ [User Stories] (#user-stories)
-+ [Design] (#design)
-+ [Wireframes] (#wireframes)
--	[**Features**] (#features)
-+ [Existing Features] (#existing-features)
-+ [Features left to Include] (#features-left-to-include)
-+ [Status] (status)
--	[**Technologies**] (#technologies)
-+ [Languages] (#languages)
-+ [Frameworks, Libraries and Programs] (#frameworks-libraries-and-programs)
--	[Deployment] (#deployment)
-+ [Deploy to Github] (#deploy-to-github)
-+ [Accessing Code] (#accessing-code)
--	[Testing] (#testing)
-+ [Testing User Stories] (#testing-user-stories)
-+ [Validator Checks] (#validator-checks)
-+ [Responsive Design] (#responsive-design)
-+ [Additional Testing] (#additional-testing)
-+ [Bugs] (#bugs) 
--	[Credits] (#credits)
-+ [Content] (#content)
-+ [Media] (#media)
-+ [Acknowledgements] (#acknowledgements) 
--	[Contact] (#contact)
+-	[**User Experience (UX)**](#user-experience-ux)
++ [Purpose](#purpose)
++ [User Stories](#user-stories)
++ [Design](#design)
++ [Wireframes](#wireframes)
+-	[**Features**](#features)
++ [Existing Features](#existing-features)
++ [Features left to Include](#features-left-to-include)
++ [Status](status)
+-	[**Technologies**](#technologies)
++ [Languages](#languages)
++ [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs) 
+-   [Deployment](#deployment)
++ [Deploy to Github](#deploy-to-github)
++ [Accessing Code](#accessing-code)
+-	[Testing](#testing)
++ [Testing User Stories](#testing-user-stories)
++ [Validator Checks](#validator-checks)
++ [Responsive Design](#responsive-design)
++ [Additional Testing](#additional-testing)
++ [Bugs](#bugs) 
+-	[Credits](#credits)
++ [Content](#content)
++ [Media](#media)
++ [Acknowledgements](#acknowledgements) 
+-	[Contact](#contact)
 
 ## **User Experience (UX)**
 ### Purpose
@@ -62,7 +62,7 @@ The Poppins font is used throughout the website, it is a rounded and easy to rea
 
 **Wireframes**
 At the start of the project I designed the wireframes using Balsamiq. The mock-ups made it easier to plan the responsive design and structure of the website. 
-[Wireframes link] (assets/pdf/MilestoneProject1Wireframes.pdf)
+![Wireframes link](assets/pdf/ms1wireframes.pdf)
 
 ## **Features**
 ### Existing Features
