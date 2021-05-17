@@ -297,6 +297,10 @@ footer {
     .navbar-expand-md .navbar-collapse {
         flex-basis: auto;
     }
+    .left-column, .right-column {
+        width: auto;
+        padding: 0;
+    }
 }
 
 @media (min-width: 1024px) {
