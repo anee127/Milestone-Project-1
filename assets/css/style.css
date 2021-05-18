@@ -68,6 +68,30 @@ header {
     
 }
 
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #FFFAD7;
+    font-size: 16px;
+    color: #F36874;
+    margin: 0;
+    min-height: 120px;
+    text-shadow: 1px 1px #879397;
+  }
+  
+  .fa {
+      color: #F36874;
+      font-size: 24px;
+      text-shadow: 1px 1px #879397;
+      border-radius: 2px;
+  }
+  
+  .fa-copyright {
+      font-size: 16px;
+  }
+  
+
 
 /*  home page css */
 
@@ -145,7 +169,7 @@ header {
 
 img {
     border-radius: 50%;
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -295,29 +319,6 @@ button[type="submit"] {
     background-color: #89AAD2;
 }
 
-
-/* Footer */
-footer {
-  padding: 20px;
-  text-align: center;
-  background: #FFFAD7;
-  font-size: 20px;
-  color: #F36874;
-  margin: 0;
-  min-height: 120px;
-  text-shadow: 1px 1px #879397;
-}
-
-.fa {
-    color: #F36874;
-    font-size: 30px;
-    text-shadow: 1px 1px #879397;
-    border-radius: 2px;
-}
-
-.fa-copyright {
-    font-size: 20px;
-}
 
 /* Responsive layout - media queries */
 @media screen and (min-width: 500px) {
