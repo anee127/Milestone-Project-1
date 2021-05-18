@@ -9,31 +9,31 @@
 This website showcases my skills and experience as a personal resume website. It includes some features about me as well as my details and CV to appeal to potential recruiter/employers. The website itself is an example of my skills and I have provided contact input for users who would like to get in touch.
 
 ## <u>Table of Contents</u>
-[**User Experience (UX)**](#user-experience-ux)
+- [**User Experience (UX)**](#user-experience-ux)
 + [Purpose](#purpose)
 + [User Stories](#user-stories)
 + [Design](#design)
 + [Wireframes](#wireframes)
-[**Features**](#features)
+- [**Features**](#features)
 + [Existing Features](#exsiting-features)
 + [Features left to Include](#features-left-to-include)
-[**Technologies**](#technologies)
+- [**Technologies**](#technologies)
 + [Languages](#languages)
 + [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs)
-[**Deployment**](#deployment)
+- [**Deployment**](#deployment)
 + [Deploy to Github](#deploy-to-github)
 + [Accessing Code](#accessing-code)
-[**Testing**](#testing)
+- [**Testing**](#testing)
 + [Testing User Stories](#testing-user-stories)
 + [Validator Checks](#validator-checks)
 + [Responsive Design](#responsive-design)
 + [Additional Testing](#additional-testing)
 + [Bugs](#bugs) 
-[**Credits**](#credits)
+- [**Credits**](#credits)
 + [Content](#content)
 + [Media](#media)
 + [Acknowledgements](#acknowledgements) 
-[**Contact**](#contact)
+- [**Contact**](#contact)
 
 ## **User Experience (UX)**
 ### Purpose
