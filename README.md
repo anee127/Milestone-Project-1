@@ -48,18 +48,18 @@ For this first milestone project the purpose is to create a personal website to 
 6.	As a user of a recruiter, I should be able to contact the creator with any message or feedback that I would like to give. 
 7.	As a user of a recruiter, I should be able to access links to their social media accounts. 
 ### Design
-**Structure**
--	I opted for a basic website design structure with a simple header and footer in the same style, as well as a hero image, all repeated to keep the website minimalistic. 
-**Colour Scheme**
--	A pastel minimalistic colour scheme in contrast to dark grey text to make is easier to read. 
--	The key colours being white, grey, blue, pink and yellow.
--	The colours used tie in with the colours in the hero image to keep the scheme throughout the website.
--	Most of the background is white to avoid visual clashes and create more emphasis on the text. 
+- **Structure**
+I opted for a basic website design structure with a simple header and footer in the same style, as well as a hero image, all repeated to keep the website minimalistic. 
+- **Colour Scheme**
+1.	A pastel minimalistic colour scheme in contrast to dark grey text to make is easier to read. 
+2.	The key colours being white, grey, blue, pink and yellow.
+3.	The colours used tie in with the colours in the hero image to keep the scheme throughout the website.
+4.	Most of the background is white to avoid visual clashes and create more emphasis on the text. 
 ![Colour Scheme](assets/ColourScheme.png)
 Source: [Coolors](https://coolors.co/879397-89aad2-f36874-fdfffc-fffad7)
-**Typography**
+- **Typography**
 The Poppins font is used throughout the website, it is a rounded and easy to read font. Bold, coloured text is used for emphasis with some words. Sans serif is the backup font in case the original font does not load onto the website. Courgette is used for the web logo only to make it stand out from the rest of the text.
-**Images**
+- **Images**
 A relevant and simple hero image was used that ties in with the colour scheme. Images were also shown to represent each project on the home page. 
 ###Wireframes
 At the start of the project I designed the wireframes using Balsamiq. These initial designs made it easier to plan the responsive design and structure of the website. 
