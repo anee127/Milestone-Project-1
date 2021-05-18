@@ -54,12 +54,13 @@ header {
 
 .hero-text {
     position: absolute;
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
+    font-weight: bold;
     top: 50%;
     left: 50%;
-    /* margin-top: 10px; */
     color:#FDFFFC;
+    text-align: center;
     transform: translate(-50%, -50%);
     background-color: rgba(135, 147, 151, 0.8);
     padding: 20px;
@@ -97,6 +98,11 @@ header {
     font-weight: bold;
 }
 
+/* .details-card {
+    border-width: 2px;
+    border-color: #879397;
+} */
+
 .list-group-item {
     background-color: #FFFAD7;
     overflow-wrap: break-word;
@@ -127,7 +133,6 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background-color: rgba(135, 147, 151); */
     padding: 20px;
     text-align: center;
 }
@@ -235,7 +240,8 @@ h1 {
 .progress {
     position: relative;
     height: 25px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
+    width: 300px;
 }
 
 .progress-bar {
@@ -243,7 +249,7 @@ h1 {
 }
 .progress-type {
     position: absolute;
-    left: 0px;
+    /* left: 0px; */
     font-weight: 400;
     padding: 15px 50px 15px 10px;
     color:#FDFFFC;
@@ -321,7 +327,7 @@ footer {
   } */
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .navbar-expand-md .navbar-collapse {
         flex-basis: auto;
     }
