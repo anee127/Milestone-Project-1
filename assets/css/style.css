@@ -26,6 +26,10 @@
     display: block;
 }
 
+.active {
+    text-decoration: underline #F36874;
+}
+
 header {
     margin-left: 0px;
     margin-right: 0px;
@@ -301,15 +305,7 @@ button[type="submit"] {
     background-color: #89AAD2;
 }
 
-
-/* Responsive layout - media queries */
-@media screen and (min-width: 500px) {
-    .navbar-expand-md .navbar-collapse {
-        flex-basis: auto;
-    }
-}
-
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     .navbar-expand-md .navbar-collapse {
         flex-basis: auto;
     }
