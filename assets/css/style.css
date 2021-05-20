@@ -304,9 +304,3 @@ button[type="submit"] {
     color: #FDFFFC;
     background-color: #89AAD2;
 }
-
-@media screen and (max-width: 800px) {
-    .navbar-expand-md .navbar-collapse {
-        flex-basis: auto;
-    }
-}
