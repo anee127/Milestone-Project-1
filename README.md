@@ -58,7 +58,7 @@ I opted for a basic website design structure with a simple header and footer in 
 2.	The key colours being white, grey, blue, pink and yellow.
 3.	The colours used tie in with the colours in the hero image to keep the scheme throughout the website.
 4.	Most of the background is white to avoid visual clashes and create more emphasis on the text. 
-![Colour Scheme](assets/ColourScheme.png)
+![Colour Scheme](assets/images/colour-scheme.png)
 Source: [Coolors](https://coolors.co/879397-89aad2-f36874-fdfffc-fffad7)
 - **Typography**
 The Poppins font is used throughout the website, it is a rounded and easy to read font. Bold, coloured text is used for emphasis with some words. Sans serif is the backup font in case the original font does not load onto the website. Courgette is used for the web logo only to make it stand out from the rest of the text.
@@ -182,12 +182,12 @@ The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
 2. The hamburger icon for the menu was not functioning at first and found that it was because I did not have JQuery script in my code. I found the links needed by searching JQuery for navbar. 
 3. 
 ## Credits
-## Content
+### Content
 Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, carousel, timeline and form templates.
 - [Code Institute's](https://codeinstitute.net/) 
 - [W3schools.com](https://www.w3schools.com/): 
 
-## Media
+### Media
 - hero image was taken from [freepik]( https://www.freepik.com)
 - The mock-up image provided at the top of the README.md was created using [About Am I Responsive](http://ami.responsivedesign.is/)
 ## Acknowledgements
