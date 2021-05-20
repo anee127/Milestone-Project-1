@@ -26,18 +26,11 @@
     display: block;
 }
 
-/* .menu:active {
-    text-decoration: underline #F36874;
-} */
-
-/* header */
-
 header {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 60px;
     margin-bottom: 30px;
-
 }
 
 .hero-images {
@@ -64,8 +57,7 @@ header {
     text-align: center;
     transform: translate(-50%, -50%);
     background-color: rgba(135, 147, 151, 0.8);
-    padding: 20px;
-    
+    padding: 20px;   
 }
 
 /* Footer */
@@ -91,15 +83,12 @@ footer {
       font-size: 16px;
   }
   
-
-
 /*  home page css */
 
 .heading {
     color: #89AAD2;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-
 }
 
 /*  about secion */
@@ -122,11 +111,6 @@ footer {
 .info {
     font-weight: bold;
 }
-
-/* .details-card {
-    border-width: 2px;
-    border-color: #879397;
-} */
 
 .list-group-item {
     background-color: #FFFAD7;
@@ -156,7 +140,6 @@ footer {
     text-decoration: underline #F36874;
 
 }
-
 
 .project-text {
     position: absolute;
@@ -279,7 +262,6 @@ h1 {
 }
 .progress-type {
     position: absolute;
-    /* left: 0px; */
     font-weight: 400;
     padding: 15px 50px 15px 10px;
     color:#FDFFFC;
@@ -322,38 +304,13 @@ button[type="submit"] {
 
 /* Responsive layout - media queries */
 @media screen and (min-width: 500px) {
-  /* .left-column, .right-column {
-    width: auto;
-    padding: 0;
-  }
-  .card {
-      max-width: 450px;
-      margin: 20px auto;
-      padding-left: 25px;
-
-  } */
+    .navbar-expand-md .navbar-collapse {
+        flex-basis: auto;
+    }
 }
 
 @media screen and (min-width: 800px) {
     .navbar-expand-md .navbar-collapse {
         flex-basis: auto;
     }
-    /* .left-column, .right-column {
-        width: auto;
-        padding: 0;
-    } */
-
-    /* .card {
-        height: auto;
-        max-width: 500px;
-        margin: 20px auto;
-        padding-left: 20px;
-    } */
 }
-/* 
-@media (min-width: 1024px) {
-    .hero-images {
-        height: 65vh;
-    }
-    
-} */
