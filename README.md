@@ -10,33 +10,33 @@ This website showcases my skills and experience as a personal resume website. It
 
 ## <u>Table of Contents</u>
 - [**User Experience (UX)**](#user-experience-ux)
-+ [Purpose](#purpose)
-+ [User Stories](#user-stories)
+  + [Purpose](#purpose)
+  + [User Stories](#user-stories)
 - [Design](#design)
-+ [Structure](#structure)
-+ [Colour Scheme](#colour-scheme)
-+ [Typography](#typography)
-+ [Images](#images)
-+ [Wireframes](#wireframes)
+    + [Structure](#structure)
+    + [Colour Scheme](#colour-scheme)
+    + [Typography](#typography)
+    + [Images](#images)
+    + [Wireframes](#wireframes)
 - [**Features**](#features)
-+ [Existing Features](#exsiting-features)
-+ [Features left to Include](#features-left-to-include)
+  + [Existing Features](#exsiting-features)
+  + [Features left to Include](#features-left-to-include)
 - [**Technologies**](#technologies)
-+ [Languages](#languages)
-+ [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs)
+  + [Languages](#languages)
+  + [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs)
 - [**Deployment**](#deployment)
-+ [Deploy to Github](#deploy-to-github)
-+ [Accessing Code](#accessing-code)
+  + [Deploy to Github](#deploy-to-github)
+  + [Accessing Code](#accessing-code)
 - [**Testing**](#testing)
-+ [Testing User Stories](#testing-user-stories)
-+ [Validator Checks](#validator-checks)
-+ [Responsive Design](#responsive-design)
-+ [Additional Testing](#additional-testing)
-+ [Bugs](#bugs) 
+  + [Testing User Stories](#testing-user-stories)
+  + [Validator Checks](#validator-checks)
+  + [Responsive Design](#responsive-design)
+  + [Additional Testing](#additional-testing)
+  + [Bugs](#bugs) 
 - [**Credits**](#credits)
-+ [Content](#content)
-+ [Media](#media)
-+ [Acknowledgements](#acknowledgements) 
+  + [Content](#content)
+  + [Media](#media)
+- [Acknowledgements](#acknowledgements) 
 - [**Contact**](#contact)
 
 ## **User Experience (UX)**
@@ -147,35 +147,27 @@ I will be using this site to promote myself in the future so will update the CV 
 - This can also be found on the hard copy of CV.
 6. **Access links to my external social accounts**
 - At the bottom of each page, there is a footer which contains links to my social platforms which is consistent throughout all pages.
-###responsive-design
--This site is a mobile-first design hence the use of Bootstrap.
-- Viewport tag included in the head of HTML files to tell the browser how to respond to different resolutions, particularly mobile ones.
-- Media queries used in the CSS file to target larger devices.
 ### Validator-checks
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Code was entered through direct input.
 
 - [**HTML Validator**](https://validator.w3.org/nu/#textarea)
 
-  One warning message received;
-
-> Warning: The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment.
-    
-Code not altered as hyphens have been used to help structure my HTML code. Six hyphens used for headings with two for sub-headings.
+  No errors or warning messages were received;
 
 - [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-  No error or warning messages received.
-###additional-testing
-The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+  Two errors occured for the CSS and several warnings. 
 
-- The website was viewed on a variety of devices including Laptop, Macbook, Ipad and IPhones (Version 6,8).
+### Additional-testing
+The Website was tested on Google Chrome, Firefox and Safari browsers.
 
-- Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
-  - Feedback action:
-    - Titles added to software skill icons so the user has a quick summary of the meaning of each language/program.
-    - On the footer, Facebook link changed to Github as this is more favoured by my target audience.
-    - Email address on 'My story' page added as a link so users can easily send a direct email.
-- Project posted on Slack, asking for feedback from fellow students.
+- The website was tested on a number of devices including a Laptop, Desktop, iPad, iPhone (5, 6, X) and Samsung Note 10.
+
+- I recieved plenty of suggestions from friends and family to improve user experience: 
+    - The original font used for the logo was pointed out to be too childish, so I changed it to a fancier font.
+    - The Project titles were placed in the middle of each image with some css changes for contrast between text and images. 
+    - The hero text was put into a translucent box in the middle of the hero image to stand out more and make it easier to read.  
+- My project was posted on Slack to recieve some feedback from other students.
 
 ## Bugs
 1. The hero image used initially caused the whole website to load really slowly so I had to compress the image to make the file size smaller but so that the resolution of the image does not change drastically. I used [Reduce Images](https://www.reduceimages.com/) to make the image smaller which resolved the problem. 
@@ -183,7 +175,7 @@ The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
 3. 
 ## Credits
 ### Content
-Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, carousel, timeline and form templates.
+- Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the navbar, grid system, timeline and form templates. [Botstrap4](https://getbootstrap.com/)
 - [Code Institute's](https://codeinstitute.net/) 
 - [W3schools.com](https://www.w3schools.com/): 
 
@@ -192,13 +184,10 @@ Bootstrap 4.5: Bootstrap Library used throughout the project, components used in
 - The mock-up image provided at the top of the README.md was created using [About Am I Responsive](http://ami.responsivedesign.is/)
 ## Acknowledgements
 - My Mentor for continuous help and support throughout the project.
- - The [Code Institute](https://codeinstitute.net/) Slack Community.
+- The [Code Institute](https://codeinstitute.net/) Slack Community.
 - A friend who has given me continuous support throughout the project.
 ## Contact
-Created by @aneesakhan
-If you would like to contact me, please use the email below:
-Aneesa.khan97@gmail.com
-Thanks for visiting.
-&copy;
-Aneesa Khan
+- Created by @aneesakhan
+- Contact: aneesa.khan97@outlook.com
+
 
