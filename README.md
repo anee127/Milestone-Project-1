@@ -97,9 +97,25 @@ I will be using this site to promote myself in the future so will update the CV 
 -	Google Fonts
 -	Coolors 
 ## deployment
-
 ### deploy-to-github
+1. Login to GitHub and find the GitHub repository.
+2. Click the settings button at the top of the repository menu.
+3. locate "Pages" on the settings page which will be at the bottom of the menu. 
+4. Under the subheading "Source" there will be a dropdown menu stating "None", select "Main or Master Branch" and save.
+5. The page will refresh automatically. 
+6. The link to the published site will appear at the top of the page. 
 
+### Accessing the code 
+**Forking**
+1. Login to GitHub and find the GitHub repository.
+2. find the "fork" button on right-hand corner of page. 
+3. click "fork" to recieve a copy of the original repository in your GitHub account. 
+
+**Cloning**
+1. Login to GitHub and find the GitHub repository.
+2. click the code button next to the green Gitpod button.
+3. copy the url, open a terminal and change the directory to where you want the repository to be. 
+4. In the terminal type "git clone" and paste in the url, press enter - the local repository is created. 
 ## Testing
 
 ### Testing User Stories
