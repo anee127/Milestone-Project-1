@@ -1,6 +1,6 @@
 # Personal Resume of Aneesa Khan
 
-![My Resume](/assets/images/responsive-design.png)\
+![My Resume](/assets/images/responsive-design.png)
 
 **Live Page**: https://anee127.github.io/Milestone-Project-1/
 
@@ -83,7 +83,7 @@ The footer has my copyright information, a download link to a printable pdf link
 ### Features Left to Include
 I will be using this site to promote myself in the future so will update the CV and skills section when required. I will also update the ‘My Projects’ section to include more recent and better projects but will keep the same layout and just include them towards the bottom. Once I have more than 6 projects, I will create a whole page just for them and provide a link on the homepage. I will also make the contact page fully useable where the messages will be sent straight to my inbox. 
 
-## Technologies Used
+## Technologies
 ### Languages
 -	HTML5
 -	CSS3
