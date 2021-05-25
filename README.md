@@ -99,20 +99,21 @@ I will be using this site to promote myself in the future so will update the CV 
 ## Technologies
 ### Languages
 
--	HTML5
--	CSS3
+-	[HTML5](https://en.wikipedia.org/wiki/HTML5)
+-	[CSS3](https://en.wikipedia.org/wiki/CSS)
 ### Frameworks, Libraries and Programmes
 
--	Bootstrap 4.5.2
--	FontAwesome 4.7.0
--	GitHub
--	GitPod
--   JQuery
--	Visual Studio Code
--	Balsamiq
--	Google Fonts
--	Coolors 
--   HTML/CSS Formatter
+-	[Bootstrap 4.5.2](https://getbootstrap.com/)
+-	[FontAwesome 4.7.0](https://fontawesome.com/v4.7.0/)
+-	[GitHub](https://github.com/)
+-	[Git](https://git-scm.com/)
+-   [JQuery](https://jquery.com/)
+-	[Visual Studio Code](https://code.visualstudio.com/)
+-	[Balsamiq](https://balsamiq.com/)
+-	[Google Fonts](https://fonts.google.com/)
+-	[Coolors](https://coolors.co/)
+-   [HTML Formatter](https://validator.w3.org/)
+-   [CSS Formatter](https://jigsaw.w3.org/css-validator/)
 ## Deployment
 ### Deploy-to-GitHub
 
@@ -137,12 +138,11 @@ I will be using this site to promote myself in the future so will update the CV 
 ## Testing
 ### Testing User Stories
 
-1. **Navigating Through the website**
-  - The homepage is structured in a simple and easy-to-read format. the header, navbar and footer are the same on all pages to keep a consistent design. The header text is different to relate to each page, so the user knows what they are about to read. 
-  - The menu items are underlinned when the user is on that current page for easy navigation. 
-  - All the text is large enough for the user to read and is responsive to be suitable for all devices. 
-  - All the social and project links are in working condition and quickly open a new tab in the browser for the third-party website so as not to overwrite the page they are currently on. The CV is also opened in the browser and can also be downloaded.
-  - On the contact page, if the user wants to submit a message, all fields must be completed before they submit. If one field is missing a reminder pop-up message will appear. 
+1. The homepage is structured in a simple and easy-to-read format. the header, navbar and footer are the same on all pages to keep a consistent design. The header text is different to relate to each page, so the user knows what they are about to read. 
+2. The menu items are underlinned when the user is on that current page for easy navigation. 
+3. All the text is large enough for the user to read and is responsive to be suitable for all devices. 
+4. All the social and project links are in working condition and quickly open a new tab in the browser for the third-party website so as not to overwrite the page they are currently on. The CV is also opened in the browser and can also be downloaded.
+5. On the contact page, if the user wants to submit a message, all fields must be completed before they submit. If one field is missing a reminder pop-up message will appear. 
 ### Validator-Checks
 
 - [**HTML Validator**](https://validator.w3.org/nu/#textarea)
