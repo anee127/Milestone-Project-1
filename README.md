@@ -117,21 +117,26 @@ I will be using this site to promote myself in the future so will update the CV 
 3. copy the url, open a terminal and change the directory to where you want the repository to be. 
 4. In the terminal type "git clone" and paste in the url, press enter - the local repository is created. 
 ## Testing
-
 ### Testing User Stories
+
+1. **Navigating through the website**
+  - The homepage is structured in a simple and easy-to-read format. the header, navbar and footer are the same on all pages to keep a consistent design. The header text is different to relate to each page so the user knows what they are about to read. 
+  - The menu items are underlinned when the user is on that current page for easy navigation. 
+  - All the text is large enough for the user to read and is responsive to be suitable for all devices. 
+  - All the social and project links are in working condition and quickly open a new tab in the browser for the third party website so as not to overwrite the page they are currently on. The CV is also opened in the browser and can also be downloaded.
+  - On the contact page, if the user wants to submit a message, all fields must be completed before they submit. If one field is missing a reminder pop-up message will appear. 
 ### Validator-checks
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Code was entered through direct input.
 
 - [**HTML Validator**](https://validator.w3.org/nu/#textarea)
 
-  No errors or warning messages were received;
+  No errors or warning messages were received for my html code.
 
 - [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-  Two errors occured for the CSS and several warnings. 
-
+  No errors or warning messages were recived for my css code but two errors and several warnings occured for the third party links used in my code. 
 ### Additional-testing
-The Website was tested on Google Chrome, Firefox and Safari browsers.
+
+- The Website was tested on Google Chrome, Firefox and Safari browsers.
 
 - The website was tested on a number of devices including a Laptop, Desktop, iPad, iPhone (5, 6, X) and Samsung Note 10.
 
@@ -140,25 +145,30 @@ The Website was tested on Google Chrome, Firefox and Safari browsers.
     - The Project titles were placed in the middle of each image with some css changes for contrast between text and images. 
     - The hero text was put into a translucent box in the middle of the hero image to stand out more and make it easier to read.  
 - My project was posted on Slack to recieve some feedback from other students.
-
 ## Bugs
+
 1. The hero image used initially caused the whole website to load really slowly so I had to compress the image to make the file size smaller but so that the resolution of the image does not change drastically. I used [Reduce Images](https://www.reduceimages.com/) to make the image smaller which resolved the problem. 
 2. The hamburger icon for the menu was not functioning at first and found that it was because I did not have JQuery script in my code. I found the links needed by searching JQuery for navbar. 
-3. 
+3. The project section on the about page had images that were too large. I first manually cropped them and save the pictures as seperate files but also used [Reduce Images](https://www.reduceimages.com/) website to make the images smaller and quicker to load on the page. 
 ## Credits
 ### Content
-- Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the navbar, grid system, timeline and form templates. [Botstrap4](https://getbootstrap.com/)
-- [Code Institute's](https://codeinstitute.net/) 
-- [W3schools.com](https://www.w3schools.com/): 
 
+- Bootstrap 4.5.2: Bootstrap was used throughout the website which included the navbar, footer, grid system, timeline and form templates. [Bootstrap4](https://getbootstrap.com/)
+- Timeline and Progress bar elements taken from [Code Institute's](https://codeinstitute.net/) 
+- Navbar, Header and basic structure was produced with the help of [W3schools.com](https://www.w3schools.com/)
 ### Media
+
 - hero image was taken from [freepik]( https://www.freepik.com)
 - The mock-up image provided at the top of the README.md was created using [About Am I Responsive](http://ami.responsivedesign.is/)
+- The my projects images were taken from the respective websites' hero images. 
+- The icons in the footer were taken from [FontAwesome](https://fontawesome.com/v4.7.0/), also linked in my html code. 
 ## Acknowledgements
-- My Mentor for continuous help and support throughout the project.
+
+- My Mentor for helping and supporting me throughout the project.
 - The [Code Institute](https://codeinstitute.net/) Slack Community.
-- A friend who has given me continuous support throughout the project.
+- A friend who has given me continuous advice and support throughout the project.
 ## Contact
+
 - Created by @aneesakhan
 - Contact: aneesa.khan97@outlook.com
 
