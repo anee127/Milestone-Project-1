@@ -103,14 +103,16 @@ I will be using this site to promote myself in the future so will update the CV 
 -	CSS3
 ### Frameworks, Libraries and Programmes
 
--	Bootstrap4
--	FontAwesome
+-	Bootstrap 4.5.2
+-	FontAwesome 4.7.0
 -	GitHub
 -	GitPod
+-   JQuery
 -	Visual Studio Code
 -	Balsamiq
 -	Google Fonts
 -	Coolors 
+-   HTML/CSS Formatter
 ## Deployment
 ### Deploy-to-GitHub
 
@@ -150,6 +152,10 @@ I will be using this site to promote myself in the future so will update the CV 
 - [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
   No errors or warning messages were recived for my css code but two errors and several warnings occured for the third party links used in my code. 
+
+### Resonsive Design
+
+The website is a mobile first design hence the use of Bootstrap. A viewport tag was included in the head section of the html code to give indication to the browser on how to respond to different resolutions.
 ### Additional-Testing
 
 - The Website was tested on Google Chrome, Firefox and Safari browsers.
@@ -164,8 +170,9 @@ I will be using this site to promote myself in the future so will update the CV 
 ## Bugs
 
 1. The hero image used initially caused the whole website to load slowly, so I had to compress the image to make the file size smaller but so that the resolution of the image does not change drastically. I used [Reduce Images](https://www.reduceimages.com/) to make the image smaller which resolved the problem. 
-2. The hamburger icon for the menu was not functioning at first and found that it was because I did not have JQuery script in my code. I found the links needed by searching JQuery for navbar. 
+2. The hamburger icon for the menu was not functioning at first and found that it was because I did not have JQuery script in my code. I found the links needed by searching 'JQuery for navbar'. 
 3. The project section on the about page had images that were too large. I first manually cropped them and save the pictures as seperate files but also used [Reduce Images](https://www.reduceimages.com/) website to make the images smaller and quicker to load on the page. 
+4. Some of the icons used in the footer were not working as a small square was showing instead of an icon. I assumed it was a problem with the browser, but my mentor pointed out to me that I was taking the icon links from the most recent version of FontAwesome when in fact, I am using version 4.7.0. This was easily fixed as I took the icons from the site that was compatible.
 ## Credits
 ### Content
 
@@ -174,8 +181,8 @@ I will be using this site to promote myself in the future so will update the CV 
 - Navbar, Header and basic structure was produced with the help of [W3schools.com](https://www.w3schools.com/)
 ### Media
 
-- hero image was taken from [Freepik]( https://www.freepik.com)
-- The mock-up image provided at the top of the README.md was created using [About Am I Responsive](http://ami.responsivedesign.is/)
+- The hero image was taken from [Freepik]( https://www.freepik.com).
+- The mock-up image provided at the top of the README.md was created using [About Am I Responsive](http://ami.responsivedesign.is/).
 - The 'My Projects' images were taken from the respective websites' hero images. 
 - The icons in the footer were taken from [FontAwesome](https://fontawesome.com/v4.7.0/), also linked in my html code. 
 ## Acknowledgements
