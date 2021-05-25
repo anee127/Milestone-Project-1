@@ -31,6 +31,8 @@ This website showcases my skills and experience as a personal resume website. It
 - [**Deployment**](#deployment)
   + [Deploy to GitHub](#deploy-to-github)
   + [Accessing Code](#accessing-code)
+     - [Forking](#forking) 
+     - [Cloning](#cloning)
 - [**Testing**](#testing)
   + [Testing User Stories](#testing-user-stories)
   + [Validator Checks](#validator-checks)
@@ -152,8 +154,7 @@ I will be using this site to promote myself in the future so will update the CV 
 - [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
   No errors or warning messages were recived for my css code but two errors and several warnings occured for the third party links used in my code. 
-
-### Resonsive Design
+### Responsive Design
 
 The website is a mobile first design hence the use of Bootstrap. A viewport tag was included in the head section of the html code to give indication to the browser on how to respond to different resolutions.
 ### Additional-Testing
