@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Courgette&display=swap');
 
-/*----------------------------------------- navbar */
+/*----------------------------------------- Navbar */
 
 .bg-light-yellow {
     background-color: #FFFAD7;
 }
 
 .logo {
-    color: #F36874;
     font-family: 'Courgette', sans-serif;
     font-size: 30px;
     letter-spacing: 1px;
     text-shadow: 2px 1px #879397;
+    color: #F36874;
 }
 
 .menu {
-    color: #F36874;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-shadow: 1px 1px #879397;
+    color: #F36874;
 }
 
 .menu:hover {
@@ -30,7 +30,7 @@
     text-decoration: underline #F36874;
 }
 
-/*---------------------------------------- header */
+/*---------------------------------------- Header */
 
 header {
     margin-left: 0px;
@@ -53,14 +53,14 @@ header {
 }
 
 .hero-text {
+    top: 50%;
+    left: 50%;
     position: absolute;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    top: 50%;
-    left: 50%;
-    color:#FDFFFC;
     text-align: center;
+    color:#FDFFFC;
     transform: translate(-50%, -50%);
     background-color: rgba(135, 147, 151, 0.8);
     padding: 20px;   
@@ -69,49 +69,49 @@ header {
 /*-------------------------------------- Footer */
 
 footer {
-    padding: 20px;
-    text-align: center;
-    background: #FFFAD7;
-    font-size: 16px;
-    color: #F36874;
     margin: 0;
+    padding: 20px;
     min-height: 120px;
+    font-size: 16px;
+    text-align: center;
     text-shadow: 1px 1px #879397;
+    background: #FFFAD7;
+    color: #F36874;
   }
   
-  .fa {
-      color: #F36874;
-      font-size: 24px;
-      text-shadow: 1px 1px #879397;
-      border-radius: 2px;
+.fa {
+    border-radius: 2px;
+    font-size: 24px;
+    text-shadow: 1px 1px #879397;
+    color: #F36874;
   }
   
-  .fa-copyright {
-      font-size: 16px;
+.fa-copyright {
+    font-size: 16px;
   }
   
-/*-------------------------------------- home page css */
+/*-------------------------------------- Homepage */
 
 .heading {
-    color: #89AAD2;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    color: #89AAD2;
 }
 
-/*----------------------------------- about secion */
+/*----------------------------------- About Secion */
 
 .left-column {
-    font-size: 20px;
   padding-right: 24px;
   margin-bottom: 20px;
+  font-size: 20px;
   color: #879397;
 }
 
-/*----------------------------------- my details secion */
+/*----------------------------------- My Details Secion */
 
 .right-column {
-    font-size: 20px;
     margin-bottom: 20px;
+    font-size: 20px;
     color: #879397;
 }
 
@@ -124,36 +124,35 @@ footer {
     overflow-wrap: break-word;
 }
 
-/*--------------------------------------- my projects secion */
+/*--------------------------------------- My Projects Secion */
 
 .project-card {
-  background-color: #FFFAD7;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
   width: auto;
   position: relative;
+  background-color: #FFFAD7;
 }
 
 .project {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 500;
-    color: #F36874;
     text-shadow: 2px 3px #FDFFFC;
+    color: #F36874;
 } 
 
 .project:hover {
     text-decoration: underline #F36874;
-
 }
 
 .project-text {
-    position: absolute;
+    padding: 20px;
     top: 50%;
     left: 50%;
+    position: absolute;
     transform: translate(-50%, -50%);
-    padding: 20px;
     text-align: center;
 }
 
@@ -164,27 +163,27 @@ img {
     opacity: 0.6;
 }
 
-/*------------------------------------------- cv page css*/
+/*------------------------------------------- CV Page*/
 
 .title {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color:#89AAD2;
     text-align: left;
     text-decoration-line: underline;
+    color:#89AAD2;
 }
 
 .history {
     margin: 4%;
 }
 
-/*---------------------------------------- timelines */
+/*---------------------------------------- Edication and Work Timelines */
 
 .timeline-item {
     padding: 4em 2em 0em 4em;
     position: relative;
-    color: #F36874;
     border-left: 1px solid;
+    color: #F36874;
 }
 
 .timeline-item p {
@@ -193,6 +192,8 @@ img {
 }
 
 .timeline-item:before {
+    padding: 0;
+    margin: 0;
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
@@ -201,8 +202,6 @@ img {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
-    padding: 0;
-    margin: 0;
 }
 
 .timeline-item:after {
@@ -217,8 +216,6 @@ img {
     background: #F36874;
 }
 
-/*--------------------------------------- education timeline*/
-
 .location {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -226,37 +223,22 @@ img {
     color: #89AAD2;
 }
 
-.grade {
+.level {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #879397;
 }
 
-/*--------------------------------------- work history timeline*/
-
-.company {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #89AAD2;
-}
-
-.role {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    color: #879397;
-}
-    
-/*------------------------------------ Technical Skills*/
+/*---------------------------------------- Technical Skills Progress Bars*/
 
 .skills {
     margin: 40px 0px;
 }
 
 .progress {
+    margin-bottom: 10px;
     position: relative;
     height: 25px;
-    margin-bottom: 10px;
     width: 300px;
 }
 
@@ -265,22 +247,22 @@ img {
 }
 
 .progress-type {
-    position: absolute;
-    font-weight: 400;
     padding: 15px 10px 15px 10px;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
     color:#FDFFFC;
     background-color: #F36874;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
 }
-/*---------------------------------------- contact page css*/
+
+/*------------------------------------------ contact page css*/
 
 .contact-heading {
-
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
     margin-top: 25px;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #89AAD2;
 }
 
